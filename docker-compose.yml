@@ -2,8 +2,6 @@ services:
     nodeserver:
         build:
             context: ./app
-        # ports:
-        #     - "81:81"
     nginx:
         restart: always
         build:
